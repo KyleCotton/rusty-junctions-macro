@@ -1,22 +1,16 @@
 [package]
-name = "rusty-junctions"
+name = "rusty-junctions-macro"
 version = "0.1.0"
-authors = ["Sebastian Müksch <sebastian.mueksch@gmail.com>", "Kyle Cotton <kylecottonkc@gmail.com>"]
+authors = ["Kyle Cotton <kylecottonkc@gmail.com>"]
 edition = "2021"
-description = "Join Pattern implementation in Rust."
-readme = "README.md"
-repository = "https://github.com/smueksch/rusty_junctions"
+repository = "https://github.com/KyleCotton/rusty-junctions-macro"
 license = "MIT"
-keywords = ["join-pattern", "join-calculus", "concurrency"]
+keywords = ["join-pattern", "join-calculus", "concurrency", "macro"]
 categories = ["concurrency"]
+readme = "README.md"
+description = "Library Generation and Client Macro API for rusty-junctions."
 
 [dependencies]
-bag = { path = "bag" }
-inverted-index = { path = "inverted-index" }
-counter = { path = "counter" }
-rusty-junctions-macro = { path = "rusty-junctions-macro" }
-log = "0.4.14"
-
-[dev-dependencies]
-rand = "0.7.3"
-pretty_env_logger = "0.4.0"
+client-api-proc-macro = { path = "client-api-proc-macro" }
+client-api-macro = { path = "client-api-macro" }
+library-generation-proc-macro = { path = "library-generation-proc-macro" }
