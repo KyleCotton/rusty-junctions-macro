@@ -1,0 +1,10 @@
+[package]
+name = "rusty-junctions-client-api-macro"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kyle Cotton <kylecottonkc@gmail.com>"]
+repository = "https://github.com/KyleCotton/rusty-junctions-macro"
+license = "MIT"
+keywords = ["join-pattern", "join-calculus", "concurrency", "macro"]
+categories = ["concurrency"]
+description = "A convenient set of declarative macros used as part of the rusty-junctions-macro Client Macro API."

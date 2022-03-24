@@ -11,6 +11,6 @@ readme = "README.md"
 description = "Library Generation and Client Macro API for rusty-junctions."
 
 [dependencies]
-client-api-proc-macro = { path = "client-api-proc-macro" }
-client-api-macro = { path = "client-api-macro" }
-library-generation-proc-macro = { path = "library-generation-proc-macro" }
+rusty-junctions-client-api-proc-macro = { path = "rusty-junctions-client-api-proc-macro" }
+rusty-junctions-client-api-macro = { path = "rusty-junctions-client-api-macro" }
+rusty-junctions-library-generation-proc-macro = { path = "rusty-junctions-library-generation-proc-macro" }

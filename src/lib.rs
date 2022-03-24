@@ -30,8 +30,8 @@
 ///
 /// See the crate level documentation for further details.
 pub mod client {
-    pub use client_api_macro::{channel, junction as junction_dec, when};
-    pub use client_api_proc_macro::junction;
+    pub use rusty_junctions_client_api_macro::{channel, junction as junction_dec, when};
+    pub use rusty_junctions_client_api_proc_macro::junction;
 }
 
 /// The [`library`](library) module provides all of the macro
@@ -49,7 +49,7 @@ pub mod client {
 ///
 /// See the crate level documentation for further details.
 pub mod library {
-    pub use library_generation_proc_macro::{
+    pub use rusty_junctions_library_generation_proc_macro::{
         library_generate as generate, JoinPattern, PartialPattern, TerminalPartialPattern,
     };
 }
